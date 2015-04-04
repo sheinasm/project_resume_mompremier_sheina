@@ -75,9 +75,9 @@ img {
 }
 
 /*-----------------------Media Queries-----------------*/
-@media (min-width: 400px) {
+@media (min-width: 320px) {
 	.sheina-face {
-		padding-left: 90px;
+		padding-left: 80px;
 		padding-top: 50px;
 	}
 }
