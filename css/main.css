@@ -14,6 +14,8 @@ h1 {
 }
 
 .logo-name {
+	font-family:'Marck Script', cursive;
+	margin-bottom: 0;
 
 }
 /*----------------------------------------*/
@@ -28,7 +30,16 @@ h3 {
 
 }
 
+.sub-title {
+	letter-spacing: 5.5px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	color: #d1a381;
+	margin-top: 0;
+	padding-top: 0;
+}
 .subsection-title {
+
 
 }
 /*----------------------------------------*/
@@ -41,6 +52,9 @@ p{
 
 header {
 	text-align: center;
+	margin-bottom: 100px;
+	
+
 }
 
 
@@ -66,6 +80,11 @@ img {
 
 }
 
+.line {
+	border-bottom: dotted #ff0000;
+	text-align: center;
+}
+
 .other-stats {
 
 }
@@ -80,7 +99,26 @@ img {
 		padding-left: 80px;
 		padding-top: 50px;
 	}
+
+	.logo-name {
+		font-size: 1.8em;
+	}
+
+	.sub-title {
+	letter-spacing: 5.5px;
+	font-size: 1.2em;
+	}
+
+	.line {
+	border-bottom: dotted #ff0000;
+	border-bottom-width: 3px;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	}
 }
+
+
 
 
 
