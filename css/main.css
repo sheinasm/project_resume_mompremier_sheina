@@ -93,6 +93,7 @@ header {
 }
 
 .logo {
+	text-align: center;
 	
 
 }
@@ -100,7 +101,7 @@ header {
 
 
 img {
-	max-width: 100%;
+	max-width: 60%;
 
 }
 
@@ -145,12 +146,18 @@ footer {
 
 
 /*-----------------------Media Queries-----------------*/
+
+/*---Phone---*/
 @media (min-width: 320px) {
 
 	/*---------header----------*/
 	.sheina-face {
-		padding-left: 80px;
-		padding-top: 50px;
+		margin-left: 50px;
+		margin-top: 50px;
+	}
+
+	.sheina-face img {
+		max-width: 50%
 	}
 
 	.logo-name {
@@ -199,7 +206,37 @@ footer {
 
 
 
+/*---Tablet-----*/
+@media (min-width: 507px) {
+	.sheina-face {
+		margin-left: 100px;
+	}
 
+	.sheina-face img {
+		text-align: center;
+		max-width: 50%;
+
+		
+	}
+
+}
+
+@media (min-width: 730px) {
+	.sheina-face {
+		margin-left: 70px;
+	}
+	.sheina-face img{
+		max-width: 30%;
+
+	}
+
+
+/*@media (max-width: 830px;) {
+	.sheina-face img {
+		max-width: 2%;
+	}
+}
+*/
 
 
 
