@@ -113,6 +113,23 @@ main {
 
 }
 
+.hobbies img {
+	width: 20%;
+	padding-right: 15px;
+}
+
+.hobbies {
+	text-align: center;
+
+}
+
+footer {
+	background-color: #ff0000;
+	margin-top: 50px;
+	height: 200px; 
+
+}
+
 
 /*-----------------------Media Queries-----------------*/
 @media (min-width: 320px) {
