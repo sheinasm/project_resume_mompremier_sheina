@@ -28,6 +28,7 @@ h1 {
 /*----------------------------------------*/
 
 
+
 h2 {
 
 }
@@ -44,9 +45,9 @@ h3 {
 	color: #d1a381;
 	margin-top: 0;
 	padding-top: 0;
-}
- 
+} 
 /*----------------------------------------*/
+
 
 
 /*----------------p styles----------------*/
@@ -54,6 +55,7 @@ p{
 	padding-left: 15px; 
 	padding-right: 10px;
 	font-family: 'Cutive Mono';
+	font-weight: bolder;
 	
 
 }
@@ -62,7 +64,18 @@ p{
 	color: #b60f0f;
 
 }
+
+.skills {
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	font-family: 'Dr Sugiyama', cursive;
+	color: #8ae6b8;
+	text-align: center;
+}
 /*----------------------------------------*/
+
+
+
 header {
 	text-align: center;
 	margin-bottom: 100px;
@@ -157,6 +170,8 @@ footer {
 	}
 	/*--------end header-------*/
 
+
+
 	/*--------fonts------------*/
 	.Contact, .section-title {
 		font-size: 2em;
@@ -171,7 +186,9 @@ footer {
 	p {
 		font-size: .9em;
 	}
-	/*-------------------------*/
+	/*---------end fonts-----*/
+
+
 
 	main {
 		padding: 20px;
