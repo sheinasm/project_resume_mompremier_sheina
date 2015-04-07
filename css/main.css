@@ -115,11 +115,9 @@ main {
 
 }
 
-.other-stats {
 
-}
 
-.stats, .other-stats {
+.stats, .experience, .contact-me, .my-skills, .education, .interests {
 	border: solid #d1a381;
 	border-radius: 4px;
 	box-shadow: 0px 0px 5px 0px #888888;
@@ -169,11 +167,9 @@ footer {
 	}
 
 	.line {
-	border-bottom: dotted #ff0000;
 	border-bottom-width: 3px;
-	text-align: center;
-	margin-left: 30%;
-	margin-right: 30%;
+	margin-left: 40%;
+	margin-right: 40%;
 	}
 	/*--------end header-------*/
 
@@ -229,6 +225,75 @@ footer {
 		max-width: 30%;
 
 	}
+	.logo-name {
+		font-size: 3.3em;
+	}
+
+	.sub-title {
+	letter-spacing: 5.5px;
+	font-size: 1.3em;
+	}
+
+	.skills {
+		font-size: 1.56em;
+	}
+
+	.line {
+	border-bottom-width: 3px;
+	margin-left: 40%;
+	margin-right: 40%;
+	}
+	
+
+	.education {
+		float: left;
+		text-align: center;
+		width: 39%;
+		margin-left: 7%;
+		margin-bottom: 60px;
+		
+
+	}
+	
+	.my-skills {
+		float: right;
+		width: 39%;
+		margin-right: 7%;
+
+	}
+
+
+	.experience {
+		clear: both;
+		margin-left: 7%;
+		margin-right: 7%;
+		margin-bottom: 60px;
+
+
+	}
+
+
+	.contact-me {
+		float: left;
+		text-align: center;
+		width: 39%;
+		margin-left: 7%;
+		margin-bottom: 60px;
+		
+	}
+
+	.interests {
+		float: right;
+		width: 39%;
+		margin-right: 7%;
+
+	}
+
+	footer {
+		clear: both;
+	}
+
+
 
 
 /*@media (max-width: 830px;) {
