@@ -9,6 +9,10 @@ h1 {
 
 }
 
+.title {
+	text-indent: -9000px;
+	position: absolute;}
+
 .Contact,.section-title {
 	text-align: center;
 	font-family: 'Dr Sugiyama', cursive;
@@ -17,7 +21,6 @@ h1 {
 	background-color: #5598c5;
 	color: white;
 	padding: 7px;
-
 }
 
 .logo-name {
@@ -55,14 +58,11 @@ p{
 	padding-left: 15px; 
 	padding-right: 10px;
 	font-family: 'Cutive Mono';
-	font-weight: bolder;
-	
-
+	font-weight: bolder;	
 }
 
 .subsection-title {
 	color: #b60f0f;
-
 }
 
 .skills {
@@ -79,8 +79,6 @@ p{
 header {
 	text-align: center;
 	margin-bottom: 100px;
-	
-
 }
 
 
@@ -94,15 +92,12 @@ header {
 
 .logo {
 	text-align: center;
-	
-
 }
 
 
 
 img {
 	max-width: 60%;
-
 }
 
 .line {
@@ -110,19 +105,12 @@ img {
 	text-align: center;
 }
 
-main {
-
-
-}
-
-
 
 .stats, .experience, .contact-me, .my-skills, .education, .interests {
 	border: solid #d1a381;
 	border-radius: 4px;
 	box-shadow: 0px 0px 5px 0px #888888;
 	margin-bottom: 30px;
-
 }
 
 .hobbies img {
@@ -132,7 +120,6 @@ main {
 
 .hobbies {
 	text-align: center;
-
 }
 
 footer {
@@ -145,7 +132,7 @@ footer {
 
 /*-----------------------Media Queries-----------------*/
 
-/*---Phone---*/
+/*---------------Phone------------------*/
 @media (min-width: 320px) {
 
 	/*---------header----------*/
@@ -178,8 +165,6 @@ footer {
 	/*--------fonts------------*/
 	.Contact, .section-title {
 		font-size: 2em;
-		
-
 	}
 
 	.subsection-school {
@@ -202,7 +187,7 @@ footer {
 
 
 
-/*---Tablet-----*/
+/*-----------------------Tablet--------------*/
 @media (min-width: 507px) {
 	.sheina-face {
 		margin-left: 100px;
@@ -210,21 +195,21 @@ footer {
 
 	.sheina-face img {
 		text-align: center;
-		max-width: 50%;
-
-		
+		max-width: 50%;	
 	}
 
 }
 
-@media (min-width: 730px) {
+@media (min-width: 920px) {
+	/*--------header----------------*/
 	.sheina-face {
 		margin-left: 70px;
 	}
 	.sheina-face img{
 		max-width: 30%;
-
 	}
+
+	/*--------fonts------------*/
 	.logo-name {
 		font-size: 3.3em;
 	}
@@ -237,12 +222,14 @@ footer {
 	.skills {
 		font-size: 1.56em;
 	}
+	/*--------end fonts-------*/
 
 	.line {
 	border-bottom-width: 3px;
 	margin-left: 40%;
 	margin-right: 40%;
 	}
+	/*--------end header------------*/
 	
 
 	.education {
@@ -251,15 +238,12 @@ footer {
 		width: 39%;
 		margin-left: 7%;
 		margin-bottom: 60px;
-		
-
 	}
 	
 	.my-skills {
 		float: right;
 		width: 39%;
 		margin-right: 7%;
-
 	}
 
 
@@ -268,8 +252,6 @@ footer {
 		margin-left: 7%;
 		margin-right: 7%;
 		margin-bottom: 60px;
-
-
 	}
 
 
@@ -278,15 +260,13 @@ footer {
 		text-align: center;
 		width: 39%;
 		margin-left: 7%;
-		margin-bottom: 60px;
-		
+		margin-bottom: 60px;	
 	}
 
 	.interests {
 		float: right;
 		width: 39%;
 		margin-right: 7%;
-
 	}
 
 	footer {
@@ -296,12 +276,66 @@ footer {
 
 
 
-/*@media (max-width: 830px;) {
-	.sheina-face img {
-		max-width: 2%;
+/*---------------Desktop---------------*/
+@media (min-width: 1200px) {
+	.sheina-face {
+		margin-left: 90px;
+	}
+
+	.sheina-face img{
+		max-width: 20%;
+	}
+
+	.line {
+	margin-left: 43%;
+	margin-right: 43%;
+	}
+
+	.education {
+		text-align: center;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 60px;
+	}
+	
+	.my-skills {
+		text-align: center;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 60px;
+		clear: both;
+	}
+
+
+	.experience {
+		clear: both;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 60px;
+	}
+
+
+	.contact-me {
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 60px;	
+	}
+
+	.interests {	
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 60px;
+	}
+
+	footer {
+		clear: both;
 	}
 }
-*/
+
+
+
+
+
 
 
 
