@@ -156,15 +156,12 @@ footer {
     margin-top: 0;
 
 }
-.instagram img {
-    width: 7%;
-
-}
 
 
 
 
-/*-----------------------Media Queries-----------------*/
+
+/*-----------------------Media Queries---------------------------------*/
 
 /*---------------Phone------------------*/
 @media (min-width: 320px) {
@@ -216,6 +213,12 @@ footer {
         padding: 20px;
     }
 
+    .instagram img {
+        width: 15%;
+    }
+
+}
+
 
 }
 
@@ -231,6 +234,11 @@ footer {
         text-align: center;
         max-width: 50%;
     }
+
+    .instagram img {
+        width: 7%;
+    }
+
 
 }
 
@@ -307,6 +315,11 @@ footer {
         clear: both;
     }
 
+    .instagram img {
+        width: 7%;
+    }
+
+
 
 
 
@@ -363,7 +376,13 @@ footer {
 
     footer {
         clear: both;
+        overflow: hidden;
     }
+
+    .instagram img {
+        width: 4%;
+    }
+
 }
 
 
