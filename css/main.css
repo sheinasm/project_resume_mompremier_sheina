@@ -1,7 +1,7 @@
 * {
-	margin: 0;
-	border: 0;
-	padding: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 /*---------------h1 styles----------------*/
@@ -10,22 +10,22 @@ h1 {
 }
 
 .title {
-	text-indent: -9000px;
-	position: absolute;}
+    text-indent: -9000px;
+    position: absolute;}
 
 .Contact,.section-title {
-	text-align: center;
-	font-family: 'Dr Sugiyama', cursive;
-	letter-spacing: 2px;
-	font-weight: 600;
-	background-color: #5598c5;
-	color: white;
-	padding: 7px;
+    text-align: center;
+    font-family: 'Dr Sugiyama', cursive;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: #5598c5;
+    color: white;
+    padding: 7px;
 }
 
 .logo-name {
-	font-family: 'Dr Sugiyama', cursive;
-	margin-bottom: 0;
+    font-family: 'Dr Sugiyama', cursive;
+    margin-bottom: 0;
 
 }
 /*----------------------------------------*/
@@ -42,43 +42,48 @@ h3 {
 }
 
 .sub-title {
-	letter-spacing: 3.5px;
-	font-family: 'Cutive Mono';
-	font-weight: 300;
-	color: #d1a381;
-	margin-top: 0;
-	padding-top: 0;
-} 
+    letter-spacing: 3.5px;
+    font-family: 'Cutive Mono';
+    font-weight: 300;
+    color: #d1a381;
+    margin-top: 0;
+    padding-top: 0;
+}
 /*----------------------------------------*/
 
 
 
 /*----------------p styles----------------*/
 p{
-	padding-left: 15px; 
-	padding-right: 10px;
-	font-family: 'Cutive Mono';
-	font-weight: bolder;	
+    padding-left: 15px;
+    padding-right: 10px;
+    font-family: 'Cutive Mono';
+    font-weight: bolder;
 }
 
 .subsection-title {
-	color: #b60f0f;
+    color: #b60f0f;
 }
 
 .skills {
-	font-size: 1.3em;
-	letter-spacing: 2px;
-	font-family: 'Dr Sugiyama', cursive;
-	color: #8ae6b8;
-	text-align: center;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-family: 'Dr Sugiyama', cursive;
+    color: #8ae6b8;
+    text-align: center;
 }
 /*----------------------------------------*/
 
 
+.sheina-face {
+    padding-top: 100px;
+
+}
 
 header {
-	text-align: center;
-	margin-bottom: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+
 }
 
 
@@ -91,41 +96,44 @@ header {
 }
 
 .logo {
-	text-align: center;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 70px;
 }
 
 
 
 img {
-	max-width: 60%;
+    max-width: 60%;
 }
 
 .line {
-	border-bottom: dotted #ff0000;
-	text-align: center;
+    border-bottom: dotted #ff0000;
+    text-align: center;
 }
 
 
 .stats, .experience, .contact-me, .my-skills, .education, .interests {
-	border: solid #d1a381;
-	border-radius: 4px;
-	box-shadow: 0px 0px 5px 0px #888888;
-	margin-bottom: 30px;
+    border: solid #d1a381;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px #888888;
+    margin-bottom: 30px;
+    background-color: white;
 }
 
 .hobbies img {
-	width: 70%;
-	padding:;
+    width: 70%;
+    padding:;
 }
 
 .hobbies {
-	text-align: center;
+    text-align: center;
 }
 
 footer {
-	background-color: #ff0000;
-	margin-top: 50px;
-	height: 200px; 
+    background-color: #ff0000;
+    margin-top: 50px;
+    height: 200px;
 
 }
 
@@ -135,52 +143,52 @@ footer {
 /*---------------Phone------------------*/
 @media (min-width: 320px) {
 
-	/*---------header----------*/
-	.sheina-face {
-		margin-left: 50px;
-		margin-top: 50px;
-	}
+    /*---------header----------*/
+    .sheina-face {
+        margin-left: 50px;
+        margin-top: 0px;
+    }
 
-	.sheina-face img {
-		max-width: 50%
-	}
+    .sheina-face img {
+        max-width: 50%
+    }
 
-	.logo-name {
-		font-size: 2.3em;
-	}
+    .logo-name {
+        font-size: 2.3em;
+    }
 
-	.sub-title {
-	font-size: 1em;
-	}
+    .sub-title {
+    font-size: 1em;
+    }
 
-	.line {
-	border-bottom-width: 3px;
-	margin-left: 40%;
-	margin-right: 40%;
-	}
-	/*--------end header-------*/
-
-
-
-	/*--------fonts------------*/
-	.Contact, .section-title {
-		font-size: 2em;
-	}
-
-	.subsection-school {
-		font-size: 1em;
-	}
-
-	p {
-		font-size: .9em;
-	}
-	/*---------end fonts-----*/
+    .line {
+    border-bottom-width: 3px;
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+    /*--------end header-------*/
 
 
 
-	main {
-		padding: 20px;
-	}
+    /*--------fonts------------*/
+    .Contact, .section-title {
+        font-size: 2em;
+    }
+
+    .subsection-school {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: .9em;
+    }
+    /*---------end fonts-----*/
+
+
+
+    main {
+        padding: 20px;
+    }
 
 
 }
@@ -189,147 +197,147 @@ footer {
 
 /*-----------------------Tablet--------------*/
 @media (min-width: 507px) {
-	.sheina-face {
-		margin-left: 100px;
-	}
+    .sheina-face {
+        margin-left: 100px;
+    }
 
-	.sheina-face img {
-		text-align: center;
-		max-width: 50%;	
-	}
+    .sheina-face img {
+        text-align: center;
+        max-width: 50%;
+    }
 
 }
 
 @media (min-width: 920px) {
-	/*--------header----------------*/
-	.sheina-face {
-		margin-left: 70px;
-	}
-	.sheina-face img{
-		max-width: 30%;
-	}
+    /*--------header----------------*/
+    .sheina-face {
+        margin-left: 70px;
+    }
+    .sheina-face img{
+        max-width: 30%;
+    }
 
-	/*--------fonts------------*/
-	.logo-name {
-		font-size: 3.3em;
-	}
+    /*--------fonts------------*/
+    .logo-name {
+        font-size: 3.3em;
+    }
 
-	.sub-title {
-	letter-spacing: 5.5px;
-	font-size: 1.3em;
-	}
+    .sub-title {
+    letter-spacing: 5.5px;
+    font-size: 1.3em;
+    }
 
-	.skills {
-		font-size: 1.56em;
-	}
-	/*--------end fonts-------*/
+    .skills {
+        font-size: 1.56em;
+    }
+    /*--------end fonts-------*/
 
-	.line {
-	border-bottom-width: 3px;
-	margin-left: 40%;
-	margin-right: 40%;
-	}
-	/*--------end header------------*/
-	
-
-	.education {
-		float: left;
-		text-align: center;
-		width: 39%;
-		margin-left: 7%;
-		margin-bottom: 60px;
-	}
-	
-	.my-skills {
-		float: right;
-		width: 39%;
-		margin-right: 7%;
-	}
+    .line {
+    border-bottom-width: 3px;
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+    /*--------end header------------*/
 
 
-	.experience {
-		clear: both;
-		margin-left: 7%;
-		margin-right: 7%;
-		margin-bottom: 60px;
-	}
+    .education {
+        float: left;
+        text-align: center;
+        width: 39%;
+        margin-left: 7%;
+        margin-bottom: 60px;
+    }
+
+    .my-skills {
+        float: right;
+        width: 39%;
+        margin-right: 7%;
+    }
 
 
-	.contact-me {
-		float: left;
-		text-align: center;
-		width: 39%;
-		margin-left: 7%;
-		margin-bottom: 60px;	
-	}
+    .experience {
+        clear: both;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 60px;
+    }
 
-	.interests {
-		float: right;
-		width: 39%;
-		margin-right: 7%;
-	}
 
-	footer {
-		clear: both;
-	}
+    .contact-me {
+        float: left;
+        text-align: center;
+        width: 39%;
+        margin-left: 7%;
+        margin-bottom: 60px;
+    }
+
+    .interests {
+        float: right;
+        width: 39%;
+        margin-right: 7%;
+    }
+
+    footer {
+        clear: both;
+    }
 
 
 
 
 /*---------------Desktop---------------*/
 @media (min-width: 1200px) {
-	.sheina-face {
-		margin-left: 90px;
-	}
+    .sheina-face {
+        margin-left: 90px;
+    }
 
-	.sheina-face img{
-		max-width: 20%;
-	}
+    .sheina-face img{
+        max-width: 20%;
+    }
 
-	.line {
-	margin-left: 43%;
-	margin-right: 43%;
-	}
+    .line {
+    margin-left: 43%;
+    margin-right: 43%;
+    }
 
-	.education {
-		text-align: center;
-		margin-left: 30%;
-		margin-right: 30%;
-		margin-bottom: 60px;
-	}
-	
-	.my-skills {
-		text-align: center;
-		margin-left: 30%;
-		margin-right: 30%;
-		margin-bottom: 60px;
-		clear: both;
-	}
+    .education {
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 60px;
+    }
 
-
-	.experience {
-		clear: both;
-		margin-left: 30%;
-		margin-right: 30%;
-		margin-bottom: 60px;
-	}
+    .my-skills {
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 60px;
+        clear: both;
+    }
 
 
-	.contact-me {
-		margin-left: 30%;
-		margin-right: 30%;
-		margin-bottom: 60px;	
-	}
+    .experience {
+        clear: both;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 60px;
+    }
 
-	.interests {	
-		margin-left: 30%;
-		margin-right: 30%;
-		margin-bottom: 60px;
-	}
 
-	footer {
-		clear: both;
-	}
+    .contact-me {
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 60px;
+    }
+
+    .interests {
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 60px;
+    }
+
+    footer {
+        clear: both;
+    }
 }
 
 

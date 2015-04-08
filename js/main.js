@@ -1,5 +1,5 @@
 $( document ).ready(function() {
 
-    $.backstretch("http://dl.dropbox.com/u/515046/www/garfield-interior.jpg");
+    $.backstretch("img/tumblr_mmdvbbvvMx1qdlx4ro1_1280.jpg");
 
 });
