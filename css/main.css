@@ -53,6 +53,18 @@ h3 {
 
 
 
+/*--------------h4, footer----------------*/
+
+.tlt {
+    text-align: center;
+    color: white;
+    font-family: 'Cutive Mono';
+    font-size: 1.1em;
+}
+/*----------------------------------------*/
+
+
+
 /*----------------p styles----------------*/
 p{
     padding-left: 15px;
@@ -132,10 +144,24 @@ img {
 
 footer {
     background-color: #ff0000;
-    margin-top: 50px;
-    height: 200px;
+    margin-top: 40px;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 
 }
+
+.instagram {
+    text-align: center;
+    margin-top: 0;
+
+}
+.instagram img {
+    width: 7%;
+
+}
+
+
 
 
 /*-----------------------Media Queries-----------------*/
