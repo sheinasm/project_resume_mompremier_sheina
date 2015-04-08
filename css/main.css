@@ -242,7 +242,7 @@ footer {
 
 }
 
-@media (min-width: 920px) {
+@media (min-width: 700px) {
     /*--------header----------------*/
     .sheina-face {
         margin-left: 70px;
