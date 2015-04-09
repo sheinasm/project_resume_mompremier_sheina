@@ -5,10 +5,6 @@
 }
 
 /*---------------h1 styles----------------*/
-h1 {
-
-}
-
 .title {
     text-indent: -9000px;
     position: absolute;}
@@ -33,10 +29,6 @@ h1 {
 
 
 /*---------------h3 styles----------------*/
-h3 {
-
-}
-
 .sub-title {
     letter-spacing: 3.5px;
     font-family: 'Cutive Mono';
@@ -101,12 +93,6 @@ header {
 
 
 /*---------------------------------------*/
-
-
-.master-wrapper {
-
-}
-
 .logo {
     text-align: center;
     background-color: white;
@@ -135,7 +121,6 @@ img {
 
 .hobbies img {
     width: 70%;
-    padding:;
 }
 
 .hobbies {
@@ -218,10 +203,6 @@ footer {
     }
 
 }
-
-
-}
-
 
 
 /*-----------------------Tablet--------------*/
