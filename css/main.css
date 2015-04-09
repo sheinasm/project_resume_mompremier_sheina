@@ -324,6 +324,7 @@ footer {
         margin-left: 30%;
         margin-right: 30%;
         margin-bottom: 60px;
+        float: none;
     }
 
     .my-skills {
@@ -332,6 +333,7 @@ footer {
         margin-right: 30%;
         margin-bottom: 60px;
         clear: both;
+        float: none;
     }
 
 
@@ -347,12 +349,14 @@ footer {
         margin-left: 30%;
         margin-right: 30%;
         margin-bottom: 60px;
+        float: none;
     }
 
     .interests {
         margin-left: 30%;
         margin-right: 30%;
         margin-bottom: 60px;
+        float: none;
     }
 
     footer {
