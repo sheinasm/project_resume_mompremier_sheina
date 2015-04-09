@@ -72,6 +72,11 @@ p{
     color: #8ae6b8;
     text-align: center;
 }
+
+p + .subsection-title {
+    margin-top: 2.5em;
+}
+
 /*----------------------------------------*/
 
 
