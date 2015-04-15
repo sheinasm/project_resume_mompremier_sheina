@@ -5,10 +5,6 @@
 }
 
 /*---------------h1 styles----------------*/
-h1 {
-
-}
-
 .title {
     text-indent: -9000px;
     position: absolute;}
@@ -33,10 +29,6 @@ h1 {
 
 
 /*---------------h3 styles----------------*/
-h3 {
-
-}
-
 .sub-title {
     letter-spacing: 3.5px;
     font-family: 'Cutive Mono';
@@ -80,6 +72,11 @@ p{
     color: #8ae6b8;
     text-align: center;
 }
+
+p + .subsection-title {
+    margin-top: 2.5em;
+}
+
 /*----------------------------------------*/
 
 
@@ -101,12 +98,6 @@ header {
 
 
 /*---------------------------------------*/
-
-
-.master-wrapper {
-
-}
-
 .logo {
     text-align: center;
     background-color: white;
@@ -135,7 +126,6 @@ img {
 
 .hobbies img {
     width: 70%;
-    padding:;
 }
 
 .hobbies {
@@ -218,10 +208,6 @@ footer {
     }
 
 }
-
-
-}
-
 
 
 /*-----------------------Tablet--------------*/
@@ -343,6 +329,7 @@ footer {
         margin-left: 30%;
         margin-right: 30%;
         margin-bottom: 60px;
+        float: none;
     }
 
     .my-skills {
@@ -351,6 +338,7 @@ footer {
         margin-right: 30%;
         margin-bottom: 60px;
         clear: both;
+        float: none;
     }
 
 
@@ -366,12 +354,14 @@ footer {
         margin-left: 30%;
         margin-right: 30%;
         margin-bottom: 60px;
+        float: none;
     }
 
     .interests {
         margin-left: 30%;
         margin-right: 30%;
         margin-bottom: 60px;
+        float: none;
     }
 
     footer {
